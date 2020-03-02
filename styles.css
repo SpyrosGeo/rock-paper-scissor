@@ -47,3 +47,36 @@ header h1{
     top:30px;
     right:-35px;
 }
+.result {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+img{
+     border: 2px solid white;
+     border-radius: 50%;
+    width:200px;
+    height: 200px;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+}
+.choices {
+    text-align: center;
+    margin:50px 0;
+}
+.choice {
+    display: inline-block;
+      
+}
+img:hover{
+    cursor: pointer;
+    background: #37888a;
+}
+ #amessage {
+     font-weight: bold;
+     font-size:20px;
+     text-align: center;
+     color:white;
+     margin-top: 20px;
+ }
